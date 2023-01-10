@@ -1,11 +1,11 @@
-package com.yzzzzun.blog
+package com.yzzzzun.playground
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class KotlinSpringBasicApplication
+class KotlinSpringPlaygroundApplication
 
 fun main(args: Array<String>) {
-    runApplication<KotlinSpringBasicApplication>(*args)
+	runApplication<KotlinSpringPlaygroundApplication>(*args)
 }
