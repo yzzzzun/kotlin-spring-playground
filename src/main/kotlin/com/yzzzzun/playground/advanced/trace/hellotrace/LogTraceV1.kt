@@ -35,11 +35,11 @@ class LogTraceV1 {
         }
     }
 
-    fun addSpace(prefix: String, level: Int) {
+    fun addSpace(prefix: String, level: Int): String {
         val sb = StringBuilder()
-        for (i in 0..level) {
+        for (i in 0 until level) {
             sb.append(if (i == level - 1) "|${prefix}" else "|    ")
         }
-        sb.toString()
+        return sb.toString()
     }
 }
